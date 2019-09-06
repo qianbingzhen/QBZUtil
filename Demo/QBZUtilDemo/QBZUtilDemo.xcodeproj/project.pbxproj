@@ -77,6 +77,7 @@
 		8B3DAD1B2322029F00C315AC = {
 			isa = PBXGroup;
 			children = (
+				8B3DAD55232219A100C315AC /* New Group */,
 				8B3DAD262322029F00C315AC /* QBZUtilDemo */,
 				8B3DAD3B232202A100C315AC /* QBZUtilDemoTests */,
 				8B3DAD46232202A100C315AC /* QBZUtilDemoUITests */,
@@ -123,6 +124,13 @@
 				8B3DAD49232202A100C315AC /* Info.plist */,
 			);
 			path = QBZUtilDemoUITests;
+			sourceTree = "<group>";
+		};
+		8B3DAD55232219A100C315AC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
