@@ -22,13 +22,13 @@ extension NSAttributedString {
 
         let imageText = NSAttributedString(attachment: attachment)
         //标题文本
-        let titleDict = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: fontSize), NSAttributedStringKey.foregroundColor: titleColor]
+//        let titleDict = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: fontSize), NSAttributedStringKey.foregroundColor: titleColor]
 //        let text = NSAttributedString(string: labelTitle, attributes: titleDict)
-        let text = NSAttributedString(string: labelTitle)
+//        let text = NSAttributedString(string: labelTitle)
 
         //换行文本
         let spaceDict = [NSAttributedStringKey.font:UIFont.systemFont(ofSize:labelSpacing)]
-        let lineText = NSAttributedString(string: "\n\n", attributes: spaceDict)
+//        let lineText = NSAttributedString(string: "\n\n", attributes: spaceDict)
         
         
         //合并文字
